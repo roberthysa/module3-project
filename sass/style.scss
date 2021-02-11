@@ -1,1 +1,159 @@
+/* Variables */
 
+$color-font-one: #ffffff;
+$color-font-two: #000000;
+$font-text: 'Inconsolata', monospace;
+$font-header: 'Signika', sans-serif;
+$font-logo: 'Dancing Script', cursive;
+$transition: all 1s;
+$color-button: #f1c40f;
+
+/* Global */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container-fluid img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+/*Navigation*/
+
+.header-container {
+  background-image: url("https://i.postimg.cc/RhhnDYhp/4.jpg");
+  height: 700px;
+}
+
+.header-subcontener {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+.header-title {
+  text-align: center;
+  margin: 0;
+}
+
+.header-title h1 {
+  font-family: $font-header;
+  font-size: 48px;
+  font-style: italic;
+}
+
+.header-title h2 {
+  font-family: $font-text;
+  font-size: 72px;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  position: relative;
+}
+
+.menu-container h1 {
+  font-family: $font-logo;
+  color: $color-button;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.menu-item {
+  font-family: $font-text;
+}
+
+.menu-item ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.menu-item ul li {
+  display: inline-block;
+  margin: 0 36px 0 0;
+}
+
+.menu-item ul a {
+  text-decoration: none;
+  color: $color-font-one;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-text;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: $color-font-one;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $color-button;
+    background-color: $color-button;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: $transition;
+}
+
+
+
+/*Services*/
+
+.services, .portfolio {
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Footer*/
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer-element {
+  font-size: 30px;
+
+}
+
+.page-footer ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.page-footer ul li {
+  display: inline-block;
+
+}
+
+.page-footer i {
+  font-size: 30px;
+  background: $color-font-two;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: $color-font-one;
+  border-radius: 50%;
+  text-align: center;
+}
