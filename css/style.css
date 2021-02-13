@@ -13,7 +13,7 @@
 
 /*Navigation*/
 .header-container {
-  background-image: url("https://i.postimg.cc/RhhnDYhp/4.jpg");
+  background-image: url("https://i.postimg.cc/jdfxWxw6/hb.jpg");
   height: 700px;
 }
 
@@ -27,6 +27,7 @@
   -ms-flex-align: center;
       align-items: center;
   height: 550px;
+  color: #ffffff;
 }
 
 .header-title {
@@ -162,6 +163,7 @@
 /*Portfolio*/
 .portfolio {
   text-align: center;
+  background-color: #ecf0f1;
 }
 
 /*Footer*/
@@ -177,7 +179,7 @@
 }
 
 .footer-element {
-  font-size: 30px;
+  font-size: 36px;
 }
 
 .page-footer ul {
@@ -191,11 +193,11 @@
 }
 
 .page-footer i {
-  font-size: 30px;
+  font-size: 24px;
   background: #000000;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
   color: #ffffff;
   border-radius: 50%;
   text-align: center;
