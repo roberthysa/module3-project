@@ -9,6 +9,7 @@ $font-logo: 'Dancing Script', cursive;
 $transition: all 1s;
 $color-button: #f1c40f;
 $color-background: #ecf0f1;
+$color-background-box: #ffffff;
 
 /* Global */
 
@@ -119,6 +120,7 @@ $color-background: #ecf0f1;
 
 .services-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 72px 0 0 0;
@@ -127,6 +129,7 @@ $color-background: #ecf0f1;
 .services h1 {
   font-family: $font-header;
   font-size: 42px;
+  margin: 0;
 }
 
 .services h2 {
@@ -134,6 +137,7 @@ $color-background: #ecf0f1;
   color: $color-font-three;
   font-size: 20px;
   font-style: italic;
+  margin: 0;
 }
 
 .services h3 {
@@ -167,16 +171,61 @@ $color-background: #ecf0f1;
 .portfolio {
   text-align: center;
   background-color: $color-background;
+  padding: 96px 0;
+}
+
+.portfolio img {
+  width:100%;
+}
+
+.portfolio h1 {
+  font-family: $font-header;
+  font-size: 42px;
+  margin: 0;
+}
+
+.portfolio h2 {
+  font-family: $font-text;
+  color: $color-font-three;
+  font-size: 20px;
+  font-style: italic;
+  margin: 0 0 48px 0;
+}
+
+.portfolio h3 {
+  font-family: $font-header;
+  font-size: 20px;
+  font-weight: 900;
+  border: none;
+}
+
+.portfolio h4 {
+  font-family: $font-text;
+  color: $color-font-three;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.portfolio-box {
+  background-color: $color-background-box;
+  margin: 32px 0;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /*Footer*/
+
+.page-footer {
+  margin: 12px auto;
+}
 
 .footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 0 auto;
+  margin: auto;
   position: relative;
+  text-align: center;
 }
 
 .footer-element {
