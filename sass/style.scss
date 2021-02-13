@@ -8,6 +8,7 @@ $font-header: 'Signika', sans-serif;
 $font-logo: 'Dancing Script', cursive;
 $transition: all 1s;
 $color-button: #f1c40f;
+$color-background: #ecf0f1;
 
 /* Global */
 
@@ -164,6 +165,7 @@ $color-button: #f1c40f;
 
 .portfolio {
   text-align: center;
+  background-color: $color-background;
 }
 
 /*Footer*/
@@ -177,7 +179,7 @@ $color-button: #f1c40f;
 }
 
 .footer-element {
-  font-size: 30px;
+  font-size: 36px;
 }
 
 .page-footer ul {
@@ -191,11 +193,11 @@ $color-button: #f1c40f;
 }
 
 .page-footer i {
-  font-size: 30px;
+  font-size: 24px;
   background: $color-font-two;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
   color: $color-font-one;
   border-radius: 50%;
   text-align: center;
