@@ -2,6 +2,7 @@
 
 $color-font-one: #ffffff;
 $color-font-two: #000000;
+$color-font-three: #7f8c8d;
 $font-text: 'Inconsolata', monospace;
 $font-header: 'Signika', sans-serif;
 $font-logo: 'Dancing Script', cursive;
@@ -107,18 +108,62 @@ $color-button: #f1c40f;
     transition: $transition;
 }
 
-
-
 /*Services*/
 
-.services, .portfolio {
+.services {
   text-align: center;
+  margin: 96px auto;
 }
 
 .services-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 72px 0 0 0;
+}
+
+.services h1 {
+  font-family: $font-header;
+  font-size: 42px;
+}
+
+.services h2 {
+  font-family: $font-text;
+  color: $color-font-three;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.services h3 {
+  font-family: $font-header;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.services h4 {
+  font-family: $font-text;
+  color: $color-font-three;
+  font-size: 16px;
+}
+
+.services-first-line {
+  margin: 0;
+}
+
+.services i {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: $color-button;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/*Portfolio*/
+
+.portfolio {
+  text-align: center;
 }
 
 /*Footer*/
@@ -133,7 +178,6 @@ $color-button: #f1c40f;
 
 .footer-element {
   font-size: 30px;
-
 }
 
 .page-footer ul {
@@ -144,7 +188,6 @@ $color-button: #f1c40f;
 
 .page-footer ul li {
   display: inline-block;
-
 }
 
 .page-footer i {
