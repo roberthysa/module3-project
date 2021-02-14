@@ -17,6 +17,10 @@ $color-background-box: #ffffff;
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 .container-fluid img {
   width: 100%;
   height: 700px;
@@ -209,14 +213,13 @@ $color-background-box: #ffffff;
 .portfolio-box {
   background-color: $color-background-box;
   margin: 32px 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-bottom: 16px;
 }
 
 /*Footer*/
 
 .page-footer {
-  margin: 12px auto;
+  margin: 32px auto;
 }
 
 .footer-container {
